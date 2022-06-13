@@ -1,0 +1,31 @@
+/**Samuel Blake**/
+
+body{
+    background-color: #00563B;
+}
+a{
+    color:#fff;
+    text-decoration: none;
+}
+nav{
+    position: relative;
+    float: right;
+    color: #fff;
+}
+a:visited{color:#fff;}
+a:hover{text-decoration: underline;
+color: white;}
+main{
+    background-color: darkgray;
+    bottom: 20px;
+    top: 20px;
+    right: 20px;
+    left: 20px;
+    width: 75%;
+}
+footer{
+    color: darkgray;
+    bottom: 5px;
+    width: 100%;
+    text-align: center;
+}

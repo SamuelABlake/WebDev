@@ -1,7 +1,13 @@
 /**Samuel Blake**/
 
-body{
-    background-color: #00563B;
+body{background-image: url(../images/watercolorbg.jpg);}
+header{
+    color: #fff;
+    width: 100%;
+}
+h4{
+    font-size: 20px;
+    margin: 5px;
 }
 a{
     color:#fff;
@@ -13,18 +19,24 @@ nav{
     color: #fff;
 }
 a:visited{color:#fff;}
-a:hover{text-decoration: underline;
-color: white;}
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
 main{
-    background-color: darkgray;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
     bottom: 20px;
     top: 20px;
     right: 20px;
     left: 20px;
-    width: 75%;
+    width: 85%;
+    height: auto;
 }
 footer{
-    color: darkgray;
+    color: gainsboro;
     bottom: 5px;
     width: 100%;
     text-align: center;
